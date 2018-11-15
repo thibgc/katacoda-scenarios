@@ -1,0 +1,41 @@
+{
+  "pathwayTitle": "LAAWS (LOCKSS Architected As Web Services",
+  "title": "LAAWS Tour",
+  "description": "A tour of LAAWS components",
+  "difficulty": "advanced",
+  "environment": {
+    "showdashboard": true,
+    "dashboards": [
+      {
+        "name": "Repository",
+        "port": 24610
+      },
+      {
+        "name": "Configuration",
+        "port": 24620
+      },
+      {
+        "name": "Poller",
+        "port": 24630
+      }
+    ],
+    "uilayout": "terminal-iframe",
+    "uimessage1": "\u001b[32mInteractive Bash Terminal\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "docker"
+  },
+  "details": {
+    "steps": [{
+      "title": "Step 1 - Run Command",
+      "text": "step1.md"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  }
+}
